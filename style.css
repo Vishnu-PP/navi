@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+    body{
+    background-color: #1f203a;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    /* border: 3px solid rebeccapurple; */
+}
+header{
+    /* height: 100px;
+    padding-top: 30px; */
+    
+}
+.navbar{
+    background-color: #1f203a;
+}
+.nav-item{
+    font-size: 35px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.navbar-toggler-icon{
+ color: white;
+ 
+ 
+}
+
+nav img{
+    width: 5%;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #c2ce62;
+}
+.fa-bars{
+    color: white;
+}
+.fa-bars :hover{
+    color: #c2ce62;
+}
+/* Introduction */
+.intro{
+    background-color: #c2ce62;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+.introduction{
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 100px;
+    /* padding: 116px; */
+    font-size: 24px;
+    line-height: 2em;
+    text-align:center;
+
+}
+.intro__img{
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    width: 30%;
+    height: 121%;
+}
+#portfolio{
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    font-size: 120px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+/* About */
+.section_about{
+    color: #ffffff;
+    /* border: 1px solid yellow; */
+    height: 700px;
+    margin-left: 150px;
+}
+.section_title_about{
+    font-size: 120px;
+    letter-spacing: 8px;
+    position: relative;
+    margin-top: 10%;
+    right: 20%;
+}
+.learn_more{
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 240px;
+    left: 18%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    width: 11%;
+    height:21% ;
+
+}
+.div_about{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+.about_para{
+    width: 650px;
+    height: 180px;
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    left: 18%;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.section_subtitle_about{
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: relative;
+    right: 18%;
+    bottom: 5px;
+}
+
+/* My works */
+.section_myworks{
+    /* border: 1px solid green; */
+    height: 1050px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section_myworks h1{
+    font-size: 120px;
+    letter-spacing: 8px;
+    color: #ffffff;
+
+}
+.grid-container img{
+    width: 80%;
+    height: 80%;
+    margin-left: 41px;
+    margin-right: 30px;
+}
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+
+}
+.section_myworks input{
+    width: 16%;
+    height: 4%;
+    background-color:#c2ce62;
+    border: none;
+    position: relative;
+    left: 42%;
+}
+.section_title_myworks{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+/* contact us */
+.contact_us{
+    background-color: #c2ce62;
+    height:500px;
+    width: 100%;
+}
+.input_text{
+    background-color: #c2ce62;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 400px;
+    font-size: 16px;
+}
+.input_text2{
+    margin-top: 45px;
+}
+
+.btn-submit{
+    background-color: #000000;
+    border: 2px solid #000000;
+    top: 56px;
+    right: 10px;
+    width: 9%;
+    height: 41px;
+    color: #ffffff;
+}
+.user_input{
+    position: relative;
+    top: 100px;
+    margin-left:200px;
+    
+}
+.social_medias img{
+    width: 98px;
+    height: 43px;
+    position: relative;
+
+}
+.social_medias{
+    position: relative;
+    right: 31px;
+}
+
+.contacts{
+    /* border: 1px solid green; */
+    width: 40%;
+    position: relative;
+    bottom: 37%;
+    left: 54%;
+}
+.contacts h2{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.contact_details h2{
+    padding-top: 25px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+/* project details */
+#project_details{
+    background-color:darkslategrey;
+    opacity: .5;
+    position: relative;
+    top: 7%;
+    height: 15%;
+    color: #ffffff;
+    font-weight: bold;
+}
+#project_detail{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 15%;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project{
+    font-size: 14px;
+}
+.Name{
+    font-size: 20px;
+}
+/* Navigation */
+.nav__list{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+}
+
