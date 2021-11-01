@@ -318,7 +318,7 @@ li a{
     
     }
     .intro__img{
-        margin-top: -50px;
+        margin-top: -40px;
         width: 75%;
         margin-left: 50px;
         margin-right: 50px;
@@ -335,7 +335,7 @@ li a{
     /* About */
     .section_about{
         align-items: left;
-        margin-top: 600px;
+        margin-top: 450px;
         color: #ffffff;
         /* border: 1px solid yellow; */
         height: 700px;
