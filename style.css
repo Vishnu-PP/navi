@@ -387,7 +387,7 @@ li a{
     /* My works */
     .section_myworks{
        align-items: center;
-        
+        margin-top: -90px;
         
         
     }
@@ -402,9 +402,10 @@ li a{
         width: 80%;
         height: 80%;
         padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
         
+        position: relative;
+        left: 40px;
+
         
         
     }
@@ -413,20 +414,18 @@ li a{
         padding: auto;
         grid-template-columns: auto auto auto;
         align-content: center;
+        margin-top: 50px;
     
     }
     .grid-item{
-     margin: 20px;
-     justify-self: center;
+     
+     justify-content: center;
      
 
     }
-    .section_myworks input{
-       
-    }
+   
     .section_title_myworks{
-        margin-left: 50px;
-        margin-bottom: 50px;
+        
         text-align: center;
     }
     .learnmore{
@@ -515,8 +514,7 @@ li a{
     #project_details{
         background-color:darkslategrey;
         opacity: .5;
-        
-        top: 7%;
+        margin-top: 100px;
         height: 15%;
         color: #ffffff;
         font-weight: bold;
@@ -524,13 +522,18 @@ li a{
     #project_detail{
         display: flex;
         /* border: 1px solid red; */
-        width: 15%;
+        width: 220px;
         justify-content: space-between;
         position: relative;
-        top: 20px;
+        top: 50px;
         margin-left: auto;
         margin-right: auto;
     }
+    #project_detail h5{
+
+        margin-top: 5px;
+    }
+
     .project{
         font-size: 14px;
     }
